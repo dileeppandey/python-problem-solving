@@ -15,8 +15,6 @@ Num = Union[int, float]
 
 def binary_search(arr: List[Num], k: Num) -> int:
     """ Returns index of the key if it exists orherwise -1
-        Assumption:
-            Array is in ascending order
     """
     start = 0
     end = len(arr) - 1
