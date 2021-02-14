@@ -224,3 +224,6 @@ def find_smallest_subarray_sum_sw(nums: List[Nums], s: Nums) -> int:
     return -1 if smallest_size > length else smallest_size
 
 
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose=True)

@@ -16,6 +16,18 @@ E |
 F |
 
 B3 Refers tho 3rd cell on the second row
+
+Sample Input:
+
+[A1, A3, D5, F5], [A2, A3, A4, F4, A1, D5, E5, F5]
+
+Sample Output:
+
+Player One entered 2 ships.
+
+
+
+
 """
 
 class Cell:
