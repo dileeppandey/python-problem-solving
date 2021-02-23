@@ -15,12 +15,6 @@ class Process:
         """
         return self.__pid
 
-    @pid.setter
-    def pid(self, process_id: str) -> None:
-        """Setter for id
-        """
-        self.__pid = process_id
-
     @property
     def start_time(self):
         """Getter for start_time
